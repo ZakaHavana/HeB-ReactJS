@@ -1,0 +1,30 @@
+
+
+.DivSlika {
+    position: relative;
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.DivSlika::before {
+    content: "";
+    background-image: url("../../../../assets/images/program.jpg");
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.3;
+}
+
+.TextSlika {
+    position: relative;
+    color:black;
+    font-size: 4rem;
+    line-height: 1;
+    text-align: center;
+}

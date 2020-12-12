@@ -1,0 +1,22 @@
+.Text{
+    font-size: smaller;
+    margin: 40px 0px;
+}
+
+.Text div{
+    margin: 20px 10px;
+}
+
+.Red{
+    border: solid red 2px;
+    border-radius: 5px;
+    background-color: rgb(255, 208, 208);
+}
+
+@media(min-width:900px){
+    .Text{
+       
+        width: 80%;
+        margin: 50px auto;
+    }
+}

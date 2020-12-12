@@ -1,0 +1,63 @@
+
+.VideoTagContainer{
+    position: relative;
+    margin-top: 55px;
+    margin-bottom: -50px; 
+}
+.VideoTag {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    opacity: .25;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+}
+
+.Celebrate{
+    color: black;
+    margin: 0 auto;
+    width: 60%;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1.7;
+    
+}
+
+.Decade {
+    opacity: 0;
+    animation: borders 2s ease-in-out 0s forwards; 
+    transform: skew(0, -4deg);
+    padding: 0 30px 30px 50px;     
+}
+@keyframes borders{
+    to{
+        opacity: 1;
+    }
+}
+
+.FirstPar{
+    margin-bottom: 20px;
+    transform: skew(0, 4deg);
+}
+.LastPar{
+    margin-top: 20px;
+    transform: skew(0, 4deg);
+}
+
+@media(max-width: 900px){
+
+.Celebrate{
+    transform: translateY(-20vh);
+    }
+}
+@media(min-width: 901px){
+    .Celebrate{
+        font-size: 2rem;
+        transform: translateY(-60vh);
+    }
+    .Decade{
+        width: 50%;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 70px;
+    }
+}

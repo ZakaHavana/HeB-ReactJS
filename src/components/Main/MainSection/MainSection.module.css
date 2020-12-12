@@ -1,0 +1,72 @@
+
+.AfterMovieContainer{
+    transform: skew(0, -4deg);
+    background: linear-gradient(to right bottom, 
+    rgba(0, 0, 0, 0.041),
+    rgba(0, 0, 0, 0.212))
+}
+.MainSection {
+    transform: skew(0, 4deg);
+    padding-bottom: 50px;
+}
+
+
+@media(max-width: 900px){
+    .ImgDiv{
+        height: 250px;
+        padding: 20px 5px;
+        background-image: url("../../../assets/images/coverrr2.jpg");
+        background-size: cover;
+        
+        
+    }
+    .ImgDiv div{
+        margin-bottom: 15px;
+    }
+
+    .UnderPic{
+        margin-bottom: -30px;
+    }
+}
+
+@media (min-width: 901px) {
+    
+    .MainSection{
+        width: 100%;
+        padding-top: 30px;     
+    }
+    .ImgDiv{
+     
+        height: 700px;
+        background-image: url("../../../assets/images/afterr.jpg");
+        background-size: cover;
+        position: relative;
+        bottom: 15px;
+
+    }
+
+    .ImgDiv div{
+        position: relative; 
+        top:150px;
+        font-size: 30px;
+    }
+    .MainSectionImage {
+        width: 90%;
+        z-index: -2;     
+    }
+   
+}
+
+.UnderPic{
+    margin-top: 30px;
+}
+
+.UnderPic div{
+    margin-bottom: 10px;
+}
+
+.VideoTag{
+    height: 97%;
+    width: 97%;
+    object-fit: cover;
+}

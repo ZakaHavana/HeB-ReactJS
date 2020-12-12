@@ -1,0 +1,19 @@
+.Pic1, .Pic2{
+    width: 40%;
+}
+
+@media (max-width: 900px){
+    .Pic1, .Pic2{
+        width: 80%;
+    }
+}
+
+.Pic1 {
+    float: left;
+}
+
+.Pic2 {
+    float: right;
+}
+
+

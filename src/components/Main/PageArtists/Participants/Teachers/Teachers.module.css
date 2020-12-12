@@ -1,0 +1,19 @@
+.Participant{
+    width: 90%;
+    border-radius: 3px;
+    max-width: 450px;
+    margin: 40px 0;
+    box-shadow: 3px 3px 10px rgb(136, 136, 136);
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.Participant:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 20px rgb(201, 201, 201);
+
+}
+
+.Divv{
+    display: inline-block;
+}

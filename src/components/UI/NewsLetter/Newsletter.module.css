@@ -1,0 +1,23 @@
+.Newsletter {
+    background-image: url("../../../assets/images/newsletter_slika.jpg");
+    height: 200px;
+    color: honeydew;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.Newsletter form,
+.Newsletter div {
+    position: relative;
+    top: 60px;
+}
+
+.Newsletter form input{
+    padding: 10px;
+    border: whitesmoke solid;
+    background-color: black;
+    margin: 0px 10px;
+    border-radius: 5px;
+    color: whitesmoke;
+}

@@ -1,0 +1,38 @@
+.LineUpContainer{
+    transform: skew(0, -4deg);
+}
+
+.MainSection{
+    transform: skew(0, 4deg);
+    padding-bottom: 50px;
+}
+
+@media(max-width: 900px){
+    .ImgDiv div{
+        margin: 10px
+    }
+    .ImgDiv div div{
+        padding: 30px 0px;
+    }
+}
+
+@media (min-width: 901px) {
+    
+    .MainSection{
+        width: 100%;
+    }
+    .ImgDiv{   
+        display: flex;
+        align-items: center;
+        justify-content: space-between;  
+    }
+
+    .ImgDiv div{
+        display: block;
+        margin: auto;
+    }
+
+    .Pic {
+        width: 50%;     
+    }
+}

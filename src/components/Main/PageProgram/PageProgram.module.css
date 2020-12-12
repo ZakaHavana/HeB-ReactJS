@@ -1,0 +1,15 @@
+.List div ul{
+    list-style: none;
+    
+}
+
+.List div{
+    display: inline-block;
+    margin: 40px 5px;
+}
+
+.List div ul li{
+    
+    /* text-align: left; */
+    margin-bottom: 15px;
+}
