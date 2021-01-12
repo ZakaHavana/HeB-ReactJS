@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import sample from '../../assets/videos/trimmed.mp4';
+import sample from '../../assets/videos/heb09.mp4';
 import classes from './Main.module.css';
 import MainSections from '../Main/MainSections/MainSections';
 import SimpleSlider from '../../components/Slider/Slider';
