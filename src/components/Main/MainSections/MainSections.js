@@ -9,12 +9,12 @@ class MainSections extends Component {
 
         details: [
             {
-                title: 'AFTERMOVIE',
+                title: 'HEB MADNESS !',
                 mainText: 'Take a look at the aftermovie that captured the most impressive moments of our last edition!',
                 id: 1,
-                button: 'WATCH AFTERMOVIE',
+                // button: 'WATCH AFTERMOVIE',
                 name: 'after',
-                image: require('../../../assets/images/afterr.jpg'), alt: 'jedan'
+                // image: require('../../../assets/images/afterr.jpg'), alt: 'jedan'
             },
             // {
             //     title: 'LINE UP',

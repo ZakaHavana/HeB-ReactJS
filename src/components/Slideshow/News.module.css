@@ -1,8 +1,10 @@
 .NewsContainer{
     transform: skew(0, -4deg);
-    background: linear-gradient(to right bottom, 
+    /* background: linear-gradient(to right bottom, 
     rgba(0, 0, 0, 0.041),
-    rgba(0, 0, 0, 0.212))
+    rgba(0, 0, 0, 0.212)) */
+    background-image: linear-gradient(to right, rgba(255, 85, 85, 0), rgba(4, 0, 255, 0.137), rgba(255, 0, 0, 0.158),rgba(99, 88, 255, 0));
+
 }
 .Carousel, .Naslov, .Hr{
     transform: skew(0, 4deg);
@@ -17,7 +19,9 @@
 .Hr {
     border: 0;
     height: 1px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.116)); 
+    /* background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.116));  */
+    background-image: linear-gradient(to right, rgba(255, 85, 85, 0), rgb(4, 0, 248), rgb(255, 0, 0),rgba(99, 88, 255, 0));
+
     
 }
 

@@ -20,7 +20,7 @@ class Main extends Component {
                     <video className={classes.VideoTag} autoPlay loop muted>
                         <source src={sample} type='video/mp4' />
                     </video>
-                    <div className={classes.Celebrate}> Here we go again! <br/>From 5th to 8th of November Havana en Belgrado ! </div>
+                    <div className={classes.Celebrate}> Here we go again! <br/>From 1st to 4th of September Havana en Belgrado ! </div>
                 </div>
 
               

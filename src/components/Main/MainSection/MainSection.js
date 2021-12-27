@@ -19,19 +19,23 @@ class MainSection extends Component {
                 </MainTitle>
 
                 <div className={classes.MainSection} >
-                    <div className={classes.ImgDiv}>
+                    {/* <div className={classes.ImgDiv}>
                     </div>
-                   
+                    */}
+                    <video width="80%" controls>
+                        <source src={sample} type="video/mp4"/>
+                          
+                    </video>
 
-                    <div className={classes.UnderPic}>
-                        <div>{this.props.text}</div>
-                        <Button>{this.props.button}</Button>
-                    </div>
+                            <div className={classes.UnderPic}>
+                                <div>{this.props.text}</div>
+                              
+                            </div>
 
                 </div>
             </div>
-        )
+                    )
     }
 }
 
-export default MainSection;
+                    export default MainSection;
