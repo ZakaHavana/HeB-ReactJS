@@ -1,5 +1,4 @@
 .Text{
-    font-size: smaller;
     margin: 40px 0px;
 }
 
@@ -8,9 +7,14 @@
 }
 
 .Red{
-    border: solid red 2px;
-    border-radius: 5px;
-    background-color: rgb(255, 208, 208);
+    border: solid #000000 1px;
+    border-radius: 3px;
+    /* background-color: rgb(255, 240, 240); */
+    padding: 10px;
+}
+
+.ResForm{
+    color: red;
 }
 
 @media(min-width:900px){

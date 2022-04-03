@@ -1,7 +1,6 @@
 .Form{
     width: 90%;
     margin: 30px auto;
-    
 }
 
 .Form > input[type=text] {
@@ -61,3 +60,8 @@
     
 }
 
+@media(min-width: 901px){
+    .Form{
+        width: 50%;
+    }
+}

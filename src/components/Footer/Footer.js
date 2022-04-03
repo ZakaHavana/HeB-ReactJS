@@ -14,8 +14,8 @@ const Footer = () => {
       <hr className={classes.Hr} />
       <div className={classes.PreSocial}>
         <div><a href="#">Available passes</a></div>
-        <div><a href="#">News</a></div>
-        <div><a href="#">Program 2020</a></div>
+        {/* <div><a href="#">News</a></div> */}
+        <div><a href="#">Program 2022</a></div>
       </div>
 
       <div className={classes.Social}>
@@ -28,6 +28,7 @@ const Footer = () => {
         </a>
         <p><a href="mailto:havanaenbelgrado@gmail.com">havanaenbelgrado@gmail.com</a></p>
       </div>
+      <div className={classes.AllRight}>&copy; All rights reserved by Havana en Belgrado</div>
     </div>
     
   )

@@ -47,7 +47,7 @@ class Layout extends Component {
                     <Route path="#" component={PageProgram} />
                     <Route path="/hotel" component={PageHotel} />
                     <Route path="#" component={PageHotel} />
-                    <Route path="/price" component={PagePrices} />
+                    {/* <Route path="/price" component={PagePrices} /> */}
                     {/* <Route path="#" component={PagePrices} /> */}
                     {/* <Route path="/story" component={PageStory} /> */}
                     <Route path="#" component={PageStory} />

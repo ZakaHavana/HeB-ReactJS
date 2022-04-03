@@ -1,10 +1,10 @@
 .NewsContainer{
     transform: skew(0, -4deg);
+    
     /* background: linear-gradient(to right bottom, 
     rgba(0, 0, 0, 0.041),
     rgba(0, 0, 0, 0.212)) */
     /* background-image: linear-gradient(to right, rgba(255, 85, 85, 0), rgba(4, 0, 255, 0.137), rgba(255, 0, 0, 0.158),rgba(99, 88, 255, 0)); */
-    /* width: ; */
 }
 .Carousel, .Naslov, .Hr{
     transform: skew(0, 4deg);
@@ -14,12 +14,11 @@
     font-size: 2rem;
     font-weight: bold;
     position: relative;
-   
 }
+
 .Hr {
     border: 0;
     height: 1px;
-    /* background-image: linear-gradient(to right, rgba(255, 85, 85, 0), rgb(4, 0, 248), rgb(255, 0, 0),rgba(99, 88, 255, 0)); */
     background: linear-gradient(to right,#fff,#0eb0ef, #ec1d25, #fff);
     width: 40%;
     height: 3px;
@@ -29,8 +28,6 @@
     font-size: 14px;
     margin-bottom: 40px;
 }
-
-
 
 @media (max-width: 900px) {
     .Naslov {
@@ -63,6 +60,9 @@
 }
 
 @media (min-width: 901px) {
+    /* .Pic{
+        margin: 0 100px;
+    } */
     .Naslov {
         top: 90px;
     }
@@ -71,12 +71,12 @@
         margin-bottom: 100px;
     }
     .Pic{
-        width: 50%;
+        width: 43%;
     }
      .ImgSlide{ 
           display: flex;
          align-items: center;
-         justify-content: space-between;   
+         justify-content: space-around;   
     }  
     Button{
         display: block;

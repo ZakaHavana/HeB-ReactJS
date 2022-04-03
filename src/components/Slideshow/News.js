@@ -4,8 +4,9 @@ import "react-multi-carousel/lib/styles.css";
 import classes from './News.module.css';
 // import newsPic from '../../assets/images/postponed.jpg'
 import hebIsBackPic from '../../assets/images/10.png'
-// import welcomePic from '../../assets/images/welcome.jpg'
+import earlyPic from '../../assets/images/early.png'
 import Button from '../UI/Button/Button';
+import { faEarlybirds } from '@fortawesome/free-brands-svg-icons';
 
 
 
@@ -47,26 +48,20 @@ const Slide = () => {
 
     if (state === true) {
 
-        firstSlide = <div className={classes.ImgSlide}><img className={classes.Pic} src={hebIsBackPic} alt="newss" />
+        firstSlide = <div className={classes.ImgSlide}><img className={classes.Pic} src={earlyPic} alt="newss" />
             <div className={classes.DivNews}>
-                <div>The first moment we heard them we fell in love with their music.
-                    It was 2007.<br/><br/>
-                    The first time we met them, we felt in love with their energy.
-                    It was 2010.<br/><br/>
-                    The first time we hosted them we fell in love with their humility.
-                    It was 2015.<br/><br/>
-                    They are a big part of our journey and we are happy to be their friends. This will be the third time they are playing at HeB and every time was incredible and very special for us.<br/><br/>
-                    With small 2 years delay, again at HeB - ALEXANDER ABREU Y HAVANA D’PRIMERA!!!</div>
-                {/* <Button onClick={switchToImageHandler}>Tell me more about this update !</Button> */}
+                <div>See the latest and updated news of Havana en Belgrado 10 !</div>
+                <Button onClick={switchToImageHandler}>More info about this news</Button>
             </div>
         </div>
 
-        // secondSlide = <div className={classes.ImgSlide}><img className={classes.Pic} src={dianaPic} alt="newss" />
-        //     <div className={classes.DivNews}>
-        //         <div>See the latest and updated news of Havana en Belgrado 10 !</div>
-        //         <Button onClick={switchToImageHandler}>Tell me more about this update !</Button>
-        //     </div>
-        // </div>
+
+        secondSlide = <div className={classes.ImgSlide}><img className={classes.Pic} src={hebIsBackPic} alt="newss" />
+            <div className={classes.DivNews}>
+                <div>See the latest and updated news of Havana en Belgrado 10 !</div>
+                <Button onClick={switchToImageHandler}>More info about this news</Button>
+            </div>
+        </div>
 
         // thirdSlide = <div className={classes.ImgSlide}><img className={classes.Pic} src={welcomePic} alt="newss" />
         //     <div className={classes.DivNews}>
@@ -84,12 +79,18 @@ const Slide = () => {
 
     } else if (state === false) {
 
-        firstSlide = <div className={classes.TextSection}><div className={classes.textCarousel}> HEB IS BACK 😊<br /><br /> This time we will just say, Save the date because HEB IS BACK 😊 1-4.9.2022.🎈 more info soon 😎.<br /><br />Your HeB Team❤
+        firstSlide = <div className={classes.TextSection}><div className={classes.textCarousel}> NEWS, NEWS, NEWS!!! 😉<br /><br /> Get ready!<br/><br/>On Monday, 4.4. at 6PM CET, 25 fastest HEB fans will have opportunity to get their full pass for HEB10 at a special price of 99eur.💪<br /><br />Be fast, be HEB!! 😎
         </div><Button className={classes.Btn} onClick={switchToTextHandler}>Back to image</Button></div>
 
-        // secondSlide = <div className={classes.TextSection}><div className={classes.textCarousel}> We are sad and disappointed to announce that Diana Rodriguez won't be able to come to HeB this year. <br />As you might have heard, Diana recently got married (Congrats!) and she is in the middle of the process of getting EU permanent residency.<br /> While this process is happening she can't leave EU, and thus is unable to come to Belgrade.<br /> We were working hard trying to find the solutions, but it seems like there is no way around this.
-        // <br /><br />Your HEB ❤️
-        // </div ><Button onClick={switchToTextHandler}>Back to image</Button></div>
+        secondSlide = <div className={classes.TextSection}><div className={classes.textCarousel}> The first moment we heard them we fell in love with their music. 
+        It was 2007. <br/>
+        The first time we met them, we felt in love with their energy. 
+        It was 2010. <br/>
+        The first time we hosted them we fell in love with their humility.
+        It was 2015. <br/>
+        They are a big part of our journey and we are happy to be their friends. This will be the third time they are playing at HeB and every time was incredible and very special for us. <br/>
+        <br /><br />With small 2 years delay, again at HeB - ALEXANDER ABREU Y HAVANA D’PRIMERA!!!
+        </div ><Button onClick={switchToTextHandler}>Back to image</Button></div>
 
         //     thirdSlide = <div className={classes.TextSection}> <div className={classes.textCarousel}> Are you ready to start your HEB9?!<br />
         //     We are, and we are waiting for you tonight on our well known WELCOME PARTY 😎<br />

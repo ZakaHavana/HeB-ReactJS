@@ -12,3 +12,10 @@
     opacity: 0.5;
     transform: scale(1.07);
 }
+
+@media(min-width: 901px){
+    .Participant {
+        width: 300px;
+        height: 300px;
+    }
+}
