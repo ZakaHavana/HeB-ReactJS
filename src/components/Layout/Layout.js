@@ -11,10 +11,7 @@ import PagePrices from '../Main/PagePrices/PagePrices';
 import PageContact from '../Main/PageContact/PageContact';
 import PageStory from '../Main/PageStory/PageStory';
 
-
 class Layout extends Component {
-
-
 
     state = {
         showSideDrawer: false,
@@ -33,10 +30,8 @@ class Layout extends Component {
 
     // Main je PageOne
     render() {
-
         return (
             <div>
-
                 <Toolbar
                     drawerToggleClicked={this.sideDrawerToggleHandler}
                 />
@@ -46,15 +41,18 @@ class Layout extends Component {
                 />
 
                 <Switch>
-
                     <Route path="/artists" component={PageArtists} />
-                    <Route path="/program" component={PageProgram} />
+                    <Route path="#" component={PageArtists} />
+                    {/* <Route path="/program" component={PageProgram} /> */}
+                    <Route path="#" component={PageProgram} />
                     <Route path="/hotel" component={PageHotel} />
+                    <Route path="#" component={PageHotel} />
                     <Route path="/price" component={PagePrices} />
-                    <Route path="/story" component={PageStory} />
+                    {/* <Route path="#" component={PagePrices} /> */}
+                    {/* <Route path="/story" component={PageStory} /> */}
+                    <Route path="#" component={PageStory} />
                     <Route path="/contact" component={PageContact} />
                     <Route path="/" component={Main} />
-
                 </Switch>
                 <Footer />
             </div>

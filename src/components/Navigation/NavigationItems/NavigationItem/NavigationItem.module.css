@@ -2,12 +2,12 @@
     margin: 10px 0;
     box-sizing: border-box;
     display: block;
-    width: 100%;
-    
+    width: 100%;    
+    font-size: 18px;
 }
 
 .NavigationItem a {
-    color: #e7e7e7;
+    color: #000;
     text-decoration: none;
     width: 100%;
     box-sizing: border-box;
@@ -30,7 +30,7 @@
     }
 
     .NavigationItem a {
-        color: white;
+        color: #000;
       
         height: 100%;
         padding: 16px 10px;
@@ -41,9 +41,8 @@
     .NavigationItem a:hover,
     .NavigationItem a:active,
     .NavigationItem a.active {
-        background-color: rgb(184, 0, 0);
-        border-bottom: 4px solid #40a4c8;
-        color: white;
+        color: #ec1d25;
+        border-bottom: 4px solid #0eb0ef;
         transform: scale(1.1);
     }
 }

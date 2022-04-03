@@ -1,25 +1,68 @@
 
+.Hr{
+    height: 3px;
+    background: linear-gradient(to right,#fff,#0eb0ef, #ec1d25, #fff);
+    width: 40%;
+    border: none;
+}
 .VideoTagContainer{
     position: relative;
     margin-top: 55px;
     margin-bottom: -50px; 
 }
+.DecadeWord{
+    color: #0eb0ef;
+}
+.EnX{
+    color: #ec1d25;
+}
 .VideoTag {
-    height: 100%;
+    height: 100vh;
     width: 100%;
     object-fit: cover;
-    opacity: .25;
+    opacity: 1;
     clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1); 
+    filter: grayscale(100%); 
+    
+}
+
+.BookNow{
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #0eb0ef;
+    color: #fff;
+    font-weight: 300;
+    position: relative;
+    top: 1rem;
+}
+.BookNow:hover{
+    /* transform: scale(1.2); */
+    background-color: #ec1d25;
+    transition: 0.3s;
 }
 
 .Celebrate{
-    color: black;
+    color: rgb(59, 59, 59);
     margin: 0 auto;
     width: 60%;
-    text-transform: uppercase;
     font-weight: 700;
-    line-height: 1.7;
-    
+    position: relative;
+    bottom: 70px;
+}
+
+.Hebisback{
+    background-color: rgba(0, 0, 0, 0.61);
+    margin: auto;
+    font-size: 90px;
+    font-weight: 200;
+    max-width: 400px;
+}
+
+.Bela{
+    color: white;
 }
 
 .Decade {
@@ -27,6 +70,12 @@
     animation: borders 2s ease-in-out 0s forwards; 
     transform: skew(0, -4deg);
     padding: 0 30px 30px 50px;     
+}
+
+.Sept{
+    padding: 10px;
+    font-size: 60px;
+    color: #fff;
 }
 @keyframes borders{
     to{
@@ -44,20 +93,47 @@
 }
 
 @media(max-width: 900px){
+    .Hebisback{
+        font-size: 50px;
+    }
+    .Sept{
+        font-size: 40px;
+    }
 
-.Celebrate{
-    transform: translateY(-20vh);
+    .Celebrate{
+    transform: translateY(-60vh);
+    }
+    .Decade{
+        position: relative;
+        bottom: 50px;
     }
 }
+
+@media(max-width: 400px){
+    .Hebisback{
+        font-size: 40px;
+    }
+    .Sept{
+        font-size: 30px;
+    }
+}
+
 @media(min-width: 901px){
+
     .Celebrate{
-        font-size: 2rem;
+        font-size: 2.5rem;
         transform: translateY(-60vh);
+    }
+    .BookNow{
+        margin-top: 50px;
+        font-size: 2rem;
     }
     .Decade{
         width: 50%;
         margin: auto;
-        margin-top: 30px;
-        margin-bottom: 70px;
+        position: relative;
+        bottom: 50px;
+        font-size: 1.4rem;
+
     }
 }

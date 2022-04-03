@@ -2,12 +2,12 @@
     display: inline-block;
     margin: 50px;
     border: solid 1px rgb(197, 197, 197);
-    border-radius: 5px;
-    box-shadow: 5px 5px 10px #888888;
+    border-radius: 2px;
+    box-shadow: 5px 5px 10px #e9e6e6;
 }
 
 .Drugi{
-    background-color: rgb(236, 236, 236);
+    background-color: rgb(245, 245, 245);
 }
 
 .Table tbody tr th{

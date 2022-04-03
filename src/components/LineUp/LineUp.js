@@ -18,7 +18,7 @@ class LineUp extends Component {
 
                     <div className={classes.ImgDiv}>
                         <div>
-                            <div style={{ color: 'black' }}>Be informed about the artists to come to Havana En Belgrado 10 !</div>
+                            {/* <div style={{ color: 'black', fontSize:'1.5rem' }}>Be informed about the artists to come to Havana En Belgrado 10 !</div> */}
                             {/* <Button className={classes.Btn}>DISCOVER OUR LINE UP</Button> */}
                         </div>
                         <Participants/>

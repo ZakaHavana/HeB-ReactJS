@@ -9,7 +9,7 @@ class Table extends Component {
             { title: 'FULL PASS until July 31st', firstPrice: '110 e', secondPrice: 'Workshops (2 days)', thirdPrice: 'Parties (4 days)', concerts: '2 concerts' },
             { title: 'FULL PASS until September 30st', firstPrice: '120 e', secondPrice: 'Workshops (2 days)', thirdPrice: 'Parties (4 days)', concerts: '2 concerts' },
             { title: 'FULL PASS until October 31st', firstPrice: '130 e', secondPrice: 'Workshops (2 days)', thirdPrice: 'Parties (4 days)', concerts: '2 concerts' },
-            { title: 'FULL PASS until November 1st', firstPrice: '140 e', secondPrice: 'Workshops (2 days)', thirdPrice: 'Parties (4 days)', concerts: '2 concerts' },
+            // { title: 'FULL PASS until November 1st', firstPrice: '140 e', secondPrice: 'Workshops (2 days)', thirdPrice: 'Parties (4 days)', concerts: '2 concerts' },
             // { title: 'PARTY PASS', firstPrice: 'firstPrice5', secondPrice: 'secondPrice5', thirdPrice: 'thirdPrice5' }
         ]
     }
@@ -21,7 +21,7 @@ class Table extends Component {
                         <table key={el.title} className={classes.Table}>
                             <tbody>
                                 <tr>
-                                    <th style={{color:'darkred', height:'20px'}}>
+                                    <th style={{color:'#ec1d25', height:'20px'}}>
                                         {el.title}
                                     </th>
 

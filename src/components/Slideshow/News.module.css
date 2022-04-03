@@ -3,8 +3,8 @@
     /* background: linear-gradient(to right bottom, 
     rgba(0, 0, 0, 0.041),
     rgba(0, 0, 0, 0.212)) */
-    background-image: linear-gradient(to right, rgba(255, 85, 85, 0), rgba(4, 0, 255, 0.137), rgba(255, 0, 0, 0.158),rgba(99, 88, 255, 0));
-
+    /* background-image: linear-gradient(to right, rgba(255, 85, 85, 0), rgba(4, 0, 255, 0.137), rgba(255, 0, 0, 0.158),rgba(99, 88, 255, 0)); */
+    /* width: ; */
 }
 .Carousel, .Naslov, .Hr{
     transform: skew(0, 4deg);
@@ -19,10 +19,10 @@
 .Hr {
     border: 0;
     height: 1px;
-    /* background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.116));  */
-    background-image: linear-gradient(to right, rgba(255, 85, 85, 0), rgb(4, 0, 248), rgb(255, 0, 0),rgba(99, 88, 255, 0));
-
-    
+    /* background-image: linear-gradient(to right, rgba(255, 85, 85, 0), rgb(4, 0, 248), rgb(255, 0, 0),rgba(99, 88, 255, 0)); */
+    background: linear-gradient(to right,#fff,#0eb0ef, #ec1d25, #fff);
+    width: 40%;
+    height: 3px;
 }
 
 .textCarousel{
@@ -84,7 +84,9 @@
         margin-right: auto;
     }
     .DivNews{
-        margin: auto;
+        margin: auto 110px;
+        font-size: 18px;
+        /* line-height: 25px; */
     }
     .DivNews div{
         position: relative;

@@ -1,10 +1,11 @@
 import React from 'react';
 import classes from './MainTitle.module.css'
 
-const MainTitle =(props)=>(
+const MainTitle = (props) => (
     <div>
-           <p className={classes.Naslov}>{props.children}</p>
-                <hr className={classes.Hr} />
+        
+        <p className={classes.Naslov}>{props.children}</p>
+        <hr className={classes.Hr} />
     </div>
 )
 

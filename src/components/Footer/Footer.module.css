@@ -1,21 +1,20 @@
 .Footer {
-    background-color: black;
-    color: honeydew;
+    background-color: #fff;
+    color: #000;
     display: block;
+    z-index: 1000;
 }
 
 .Face,
-.Twitter,
 .Insta {
     margin: 20px;
-    color: white;
+    color: #000;
     transition: all .2s;
 }
 
 .Face:hover,
-.Twitter:hover,
 .Insta:hover {   
-    color: rgb(184, 0, 0);
+    color: #ec1d25;
 }
 
 .Social {
@@ -25,36 +24,42 @@
 
 
 .Social p a {
-    color: white;
+    color: #000;
     text-decoration: none;  
     transition: all .2s;
 
 }
 
 .Social p a:hover {
-    color: rgb(184, 0, 0); 
+    color: #ec1d25; 
 }
 
 
 .PreSocial div a {
-    color:white;
+    color: #000;
     text-decoration: none; 
     text-decoration: underline rgba(255, 255, 255, 0.552);
     
 }
 
 .PreSocial div a:hover {
-    color: rgb(184, 0, 0); 
+    color: #ec1d25; 
     transform: rotate(1.1);
     
 }
 
 
 .PreSocial {
-    display: inline-block;
     margin-right: 100px;
     margin-left: 100px;
     line-height: 30px;
+}
+
+.Hr{
+    border: 0;
+    height: 3px;
+    background: linear-gradient(to right,#fff,#0eb0ef, #ec1d25, #fff);
+    width: 40%;
 }
 
 @media (min-width: 900px) {

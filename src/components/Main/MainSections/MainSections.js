@@ -9,7 +9,7 @@ class MainSections extends Component {
 
         details: [
             {
-                title: 'HEB MADNESS !',
+                title: 'The only festival where magic happens',
                 mainText: 'Take a look at the aftermovie that captured the most impressive moments of our last edition!',
                 id: 1,
                 // button: 'WATCH AFTERMOVIE',

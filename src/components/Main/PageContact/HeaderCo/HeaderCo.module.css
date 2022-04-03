@@ -2,7 +2,7 @@
 
 .DivSlika {
     position: relative;
-    height: 60vh;
+    height: 40vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -27,6 +27,7 @@
     font-size: 4rem;
     line-height: 1;
     text-align: center;
+    top: 30px;
 }
 
 
@@ -34,12 +35,7 @@ form{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: #f0f0f0;
-}
-
-form div {
-    max-width: 400px;
-    margin: auto;
+    
 }
 
 button {
@@ -56,7 +52,7 @@ button {
 }
 
 button:valid{
-    color: rgb(139, 0, 0);
+    color: #fff;
 }
 
  button:hover:valid{

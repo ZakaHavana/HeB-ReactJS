@@ -1,12 +1,6 @@
 
 .AfterMovieContainer{
     transform: skew(0, -4deg);
-    background: linear-gradient(to right bottom, 
-    rgba(0, 0, 0, 0.041),
-    rgba(0, 0, 0, 0.212));
-    background-image: linear-gradient(to right, rgba(255, 85, 85, 0), rgba(4, 0, 255, 0.137), rgba(255, 0, 0, 0.158),rgba(99, 88, 255, 0));
-
-
 }
 .MainSection {
     transform: skew(0, 4deg);
@@ -19,9 +13,7 @@
         height: 250px;
         padding: 20px 5px;
         background-image: url("../../../assets/images/coverrr2.jpg");
-        background-size: cover;
-        
-        
+        background-size: cover;     
     }
     .ImgDiv div{
         margin-bottom: 15px;
@@ -30,9 +22,18 @@
     .UnderPic{
         margin-bottom: -30px;
     }
+    .AfterMovieContainer{
+        position: relative;
+        bottom: 4rem;
+    }
 }
 
 @media (min-width: 901px) {
+    .AfterMovieContainer{
+        position: relative;
+        bottom: 6rem;
+        font-size: 1.3rem;
+    }
     
     .MainSection{
         width: 100%;
@@ -45,7 +46,6 @@
         background-size: cover;
         position: relative;
         bottom: 15px;
-
     }
 
     .ImgDiv div{
